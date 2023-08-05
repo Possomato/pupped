@@ -43,10 +43,18 @@ class FormSubmit {
 
   displaySuccess() {
     this.form.innerHTML = this.settings.success;
+    const h1Cotacao = document.querySelector("h1");
+    if (h1Cotacao) {
+      h1Cotacao.remove();
+    }
   }
 
   displayError() {
     this.form.innerHTML = this.settings.error;
+    const h1Cotacao = document.querySelector("h1");
+    if (h1Cotacao) {
+      h1Cotacao.remove();
+    }
   }
 
   getFormObject() {
