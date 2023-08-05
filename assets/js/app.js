@@ -30,6 +30,14 @@
 // })
 
 // envio do formulario
+const h1Cotacao = document.querySelector("h1");
+
+const removerH1 = (h1) => {
+  if (h1) {
+    h1Cotacao.remove();
+  }
+}
+
 class FormSubmit {
   constructor(settings) {
     this.settings = settings;
@@ -43,18 +51,12 @@ class FormSubmit {
 
   displaySuccess() {
     this.form.innerHTML = this.settings.success;
-    const h1Cotacao = document.querySelector("h1");
-    if (h1Cotacao) {
-      h1Cotacao.remove();
-    }
+    removerH1(h1Cotacao)
   }
 
   displayError() {
     this.form.innerHTML = this.settings.error;
-    const h1Cotacao = document.querySelector("h1");
-    if (h1Cotacao) {
-      h1Cotacao.remove();
-    }
+    removerH1(h1Cotacao)
   }
 
   getFormObject() {
