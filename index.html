@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <script defer src="assets/js/app.js"></script>
+  <script defer type="module" src="assets/js/app.js"></script>
   <title>Encomendas</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
   </header>
   <main>
     <h1>cotação</h1>
-    <form action="">
+    <form action="https://getform.io/f/f9ba60a6-81eb-4e1b-917d-ba45509d1a36" method="post" data-form enctype="multipart/form-data">
       <label for="nome">Nome completo</label>
       <input type="text" name="nome" id="nome" required>
       <label for="contato">Contato</label>
@@ -26,11 +26,11 @@
       <input type="text" name="modelo" id="modelo" required placeholder="ex: Dunk / Yeezy 350">
       <label for="detalhes">Detalhes</label>
       <textarea name="Detalhes" id="detalhes" placeholder="ex: cor / tamanho / collab / condição / etc..."></textarea>
-      <label class="imagem" tabindex="0">
+      <!-- <label class="imagem" tabindex="0">
         <input type="file" accept="image/*" class="imagem-input">
-        <span class="imagem-preview">escolha uma imagem</span>
-      </label>
-      <button type="submit">
+        <span class="imagem-preview"></span>
+      </label> -->
+      <button type="submit" data-button>
         enviar
       </button>
     </form>

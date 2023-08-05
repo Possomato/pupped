@@ -169,6 +169,10 @@ button:disabled{
   background-color: #ccc;
 }
 
+.imagem-img{
+  width: 100%;
+}
+
 /* footer */
 
 footer{
