@@ -1,5 +1,9 @@
 # Encomendas - PUPPED Store 📦👟
 
+| ![Imagem 1](assets/images/sitepupped.png) | ![Imagem 2](assets/images/instapupped.png) |
+|-------------------------------------|------------------------------------|
+
+
 Este é um projeto de um formulário de cotação para a PUPPED Store, onde os clientes podem solicitar informações sobre modelos de calçados e outros detalhes. ✨
 
 ## Como usar o formulário 📝
